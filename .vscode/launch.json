@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chalice: Local",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\env\\Scripts\\chalice.exe",
+      "args": ["--project-dir", "runtime", "local", "--no-autoreload"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
